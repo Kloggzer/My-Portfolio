@@ -2,7 +2,7 @@
   "name": "my-portfolio2",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx tsc && cp -r assets src/"
+    "build": "npx --package=typescript tsc && cp -r assets src/"
   },
   "dependencies": {
     "typescript": "^5.9.3"
