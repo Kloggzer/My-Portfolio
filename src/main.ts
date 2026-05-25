@@ -1,8 +1,8 @@
-// Import Vercel Analytics
-import { inject } from '@vercel/analytics';
+// GDPR-compliant analytics
+import PrivacyConsent from './privacy-consent';
 
-// Initialize Analytics
-inject();
+// Initialize privacy consent system
+new PrivacyConsent();
 
 (() => {
   const toggle = document.getElementById("nav-toggle") as HTMLButtonElement | null;

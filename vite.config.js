@@ -8,7 +8,10 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: './src/index.html',
-        de: './src/de/index.html'
+        de: './src/de/index.html',
+        privacy: './src/privacy.html',
+        datenschutz: './src/datenschutz.html',
+        impressum: './src/impressum.html'
       }
     }
   },
