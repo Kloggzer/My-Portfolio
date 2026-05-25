@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "vite": "^8.0.14",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "@vercel/analytics": "^2.0.1"
   },
   "devDependencies": {
-    "@vercel/analytics": "^2.0.1",
     "@vitejs/plugin-react-swc": "^4.3.1"
   }
 }
