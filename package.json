@@ -6,9 +6,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vite": "^8.0.14"
+  },
   "devDependencies": {
     "@vercel/analytics": "^2.0.1",
-    "@vitejs/plugin-react-swc": "^4.3.1",
-    "vite": "^8.0.14"
+    "@vitejs/plugin-react-swc": "^4.3.1"
   }
 }
