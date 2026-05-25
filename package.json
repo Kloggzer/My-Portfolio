@@ -2,9 +2,13 @@
   "name": "my-portfolio2",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx --package=typescript tsc && cp -r assets src/"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "typescript": "^5.9.3"
+  "devDependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vitejs/plugin-react-swc": "^4.3.1",
+    "vite": "^8.0.14"
   }
 }

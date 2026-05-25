@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-git-main-kloggzers-projects.vercel.app/sitemap.xml
