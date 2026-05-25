@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Marius Kaufmann</title>
+  <style>
+    @page { margin: 12mm 14mm; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.45;
+      color: #333;
+    }
+
+    /* --- Header --- */
+    header { margin-bottom: 10px; border-bottom: 2px solid #222; padding-bottom: 8px; }
+    h1 { font-size: 22pt; font-weight: 700; color: #111; letter-spacing: -0.3px; }
+    .subtitle { color: #444; font-size: 10.5pt; margin-top: 2px; }
+    .contact-row { margin-top: 4px; font-size: 9pt; color: #555; }
+    .contact-row a { color: #555; text-decoration: none; }
+    .contact-row span { margin: 0 5px; color: #bbb; }
+
+    /* --- Sections --- */
+    section { margin-top: 9px; page-break-inside: avoid; }
+    h2 {
+      font-size: 9pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #111;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      margin-bottom: 6px;
+    }
+
+    /* --- Entries --- */
+    .entry { margin-bottom: 7px; page-break-inside: avoid; }
+    .entry-header { display: flex; justify-content: space-between; align-items: baseline; }
+    h3 { font-size: 10pt; font-weight: 600; color: #111; }
+    .entry-date { color: #666; font-size: 9.5pt; white-space: nowrap; }
+    .entry-org { color: #666; font-size: 9.5pt; }
+    .entry ul { margin: 3px 0 0 16px; }
+    .entry li { font-size: 9.5pt; color: #444; line-height: 1.5; }
+    .stack { margin-top: 3px; font-size: 9pt; color: #888; }
+    .stack strong { font-weight: 600; color: #666; }
+
+    /* --- Skills / inline rows --- */
+    .info-row { margin-bottom: 3px; font-size: 9.5pt; }
+    .info-row strong { font-weight: 600; color: #111; }
+
+    /* --- Summary --- */
+    p.summary { font-size: 9.5pt; color: #444; line-height: 1.55; }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marius Kaufmann</h1>
+    <div class="subtitle">Software Engineer &mdash; Web-Applications &amp; System Architecture</div>
+    <div class="contact-row">
+      Lübeck, Germany<span>|</span>
+      <a href="mailto:marius-mauritz@gmx.de">marius-mauritz@gmx.de</a><span>|</span>
+      <a href="https://github.com/klogzer">github.com/klogzer</a><span>|</span>
+      <a href="https://www.xing.com/profile/Marius_Kaufmann044315/">xing.com/Marius_Kaufmann</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p class="summary">Software Engineer with 6+ years of experience in full-stack web development, system architecture, and AI/LLM integration. Building web applications and internal tools with TypeScript, React, Next.js, Python, and FastAPI. Background in requirements engineering and direct customer collaboration.</p>
+  </section>
+
+  <section>
+    <h2>About</h2>
+    <div class="info-row"><strong>Languages:</strong> German (native), English (fluent)</div>
+    <div class="info-row"><strong>Interests:</strong> Gaming, Bouldering &amp; Climbing, Snowboarding (certified instructor), Fitness, Family</div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <article class="entry">
+      <div class="entry-header">
+        <h3>Software Engineer &mdash; Web-Applications &amp; System Architecture</h3>
+        <span class="entry-date">Feb 2026 &mdash; Present</span>
+      </div>
+      <div class="entry-org">IABG</div>
+      <ul>
+        <li>Designing and building full-stack web applications and system architecture with TypeScript, React, Next.js, Python, and FastAPI</li>
+        <li>Setting up CI/CD pipelines and containerized deployments with Docker and Kubernetes</li>
+      </ul>
+      <div class="stack"><strong>Stack:</strong> TypeScript, React, Next.js, Python, FastAPI, Docker, Kubernetes, CI/CD, Git</div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-header">
+        <h3>Frontend Developer</h3>
+        <span class="entry-date">Sep 2023 &mdash; Jan 2026</span>
+      </div>
+      <div class="entry-org">IABG</div>
+      <ul>
+        <li>Built internal tools including an AI chat application, a capacity planning tool (SAP-sourced, now used company-wide), and the <a href="https://dtecbw.de/sparta/">SPARTA project website</a> with interactive research dashboard</li>
+        <li>Reimplemented legacy tools in modern stacks, replacing old systems in production</li>
+      </ul>
+      <div class="stack"><strong>Stack:</strong> TypeScript, React, Vue, Next.js, Python, FastAPI, JavaScript, CSS, Git</div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-header">
+        <h3>Full-Stack PHP Developer</h3>
+        <span class="entry-date">Mar 2022 &mdash; Aug 2023</span>
+      </div>
+      <div class="entry-org">CONVOTIS Lübeck GmbH</div>
+      <ul>
+        <li>Maintained and extended the company's proprietary CMS platform powering client websites</li>
+        <li>Built customer-facing web applications with PHP, Symfony, and React</li>
+        <li>Worked directly with customers to gather requirements and deliver tailored solutions</li>
+      </ul>
+      <div class="stack"><strong>Stack:</strong> PHP, Symfony, MySQL, JavaScript, React, Node.js, Linux, Git</div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-header">
+        <h3>Working Student &mdash; Software Engineering</h3>
+        <span class="entry-date">2020 &mdash; 2022</span>
+      </div>
+      <div class="entry-org">Lynet Kommunikation GmbH (now CONVOTIS)</div>
+    </article>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <article class="entry">
+      <div class="entry-header">
+        <h3>B.Sc. Software Engineering</h3>
+        <span class="entry-date">2017 &mdash; May 2024</span>
+      </div>
+      <div class="entry-org">Technical University of Lübeck</div>
+    </article>
+    <article class="entry">
+      <div class="entry-header">
+        <h3>Abitur</h3>
+        <span class="entry-date">2014 &mdash; 2017</span>
+      </div>
+      <div class="entry-org">Emil-Possehl-Schule, Lübeck</div>
+    </article>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="info-row"><strong>Languages:</strong> TypeScript, JavaScript, Python, PHP, HTML, CSS, SQL</div>
+    <div class="info-row"><strong>Frameworks:</strong> React, Vue, Next.js, FastAPI, Symfony, Node.js</div>
+    <div class="info-row"><strong>Infrastructure:</strong> Docker, Kubernetes, CI/CD, Linux, Git, MySQL, REST APIs</div>
+    <div class="info-row"><strong>AI &amp; LLM:</strong> LLM Integration, Prompt Engineering, Tool Composition, AI Interfaces</div>
+  </section>
+
+
+</body>
+</html>
